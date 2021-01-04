@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="keywords" content="wine">
+<title> The World Of Wine </title>
+<link rel="stylesheet" href="worldofwine.css">
+
+</head>
+<body>
+<!-- Nav bar -->
+<nav class="nav">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html#whatiswine">What is Wine?</a></li>
+  <li><a href="index.html#worldsof">Wine Georgraphy</a>
+    <ul class="dropdown">
+      <li><a href="index.html#oldworld">Old World Wine</a></li>
+      <li><a href="index.html#newworld">New World Wine</a></li>
+      <li><a href="index.html#france">France</a></li>
+    </ul>
+  </li>
+  <li><a href="index.html#whenbad">When Is Wine Bad?</a></li>
+  <li>Taste Profiler</li>
+</ul>
+</nav>
+
+<!-- Text for profile -->
+<article class="whichwine">
+<h3 id="tasteprofile">Which Wine Is For You?</h3>
+<div class="flexboxsurround">
+<img alt="white wine bottle and grapes" src="../resources/images/tasteimg1.jpg" id="profileimg"/>
+<p class="tasteprofiletext">The world of wine can seem a daunting and complicated place. </br> </br> If you are a beginner to wines, or are looking for something different,</br> try this short quiz to see some suggestions...
+  <br/>
+  <br/>
+  Choose the response below that best fits your tastes...
+</div>
+</article>
+
+<!-- Taste Profile is here (via Jscript) -->
+<form class="form" name="wineChoices">
+
+  <fieldset id="choices"></fieldset>
+
+
+</form>
+
+<aside id="answerBox">
+
+  <button id="makeChoice" value="Make Choice">Click To Submit Choices</button>
+<!-- Results and last text -->
+  <p id="resultsBox"></p>
+</br>
+  <p>Remember, the best way to find out which wines you enjoy most is to get out there and taste them!</p>
+
+</aside>
+
+<p id="bottomtag"> Created by Nathan Duncan </p>
+
+
+<script src="choice.js"></script>
+
+</body>
+</html>
