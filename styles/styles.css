@@ -74,6 +74,10 @@ section {
   width: 20%;
 }
 
+.about_img {
+  width: 300px;
+}
+
 .about_row {
   display: flex;
   padding: 10px;
